@@ -17,7 +17,7 @@ import java.util.Random;
 public class EmailServiceImpl implements EmailService {
 
     final static String from = "aditya29best@gmail.com ";
-    final static String password = "adityasinghdps12";
+    final static String password = "password";
     final static String sub = "OTP for Password Recovery";
     @Autowired
     private UserDao userDao;
